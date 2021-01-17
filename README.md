@@ -1,1 +1,1 @@
-Apuntes sobre Python
+Apuntes de Python
