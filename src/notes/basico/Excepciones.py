@@ -48,7 +48,7 @@ print(division3())
 def division4 (num1,num2):
     if num2<=0:
         raise ZeroDivisionError("NO se puede dividir entre 0")
-    else:
+    else: 
         return num1/num2
 
 division4(1,0)
