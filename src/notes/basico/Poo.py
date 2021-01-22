@@ -10,7 +10,11 @@ class Coche():
 
 
     def  arrancar (self): #self es el this the Java. En Java estaba de forma implícita y no se ponia.
-        self.enMarcha = True
+        check = self.__checkCoche()
+        if check == True:
+            self.enMarcha = True
+        else:
+            self.enMarcha = False
 
     def estado (self): #Esto es un método, no una funcion. Cuando un definimos "def" dentro de una clase, es un método, si los definimos fuera de la clase, es una función
         if self.enMarcha:
@@ -20,7 +24,11 @@ class Coche():
     def infoCoche (self):
         print ("El chasis mide", self.largoChasis, "y tiene ", self.__ruedas, "ruedas") #Debemo poner __ruedas porque esta encapsulado
 
-
+    def __checkCoche (self): #Método encapsulado
+        if self.largoChasis<100 and self.anchoChasis<50 and self.__ruedas<4:
+            return False
+        else:
+            return True
 
 #Aqui fuera de la clase
 coche1 = Coche() #Instanciando una # clase

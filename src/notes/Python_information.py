@@ -4,5 +4,6 @@ INFORMACION GENERAL DE PYTHON
 - Tipado dinámico
 - Multiplataforma
 - Case sensitive
+- Permite herencia múltiple
 
 """
