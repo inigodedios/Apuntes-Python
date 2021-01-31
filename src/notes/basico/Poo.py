@@ -41,3 +41,29 @@ coche1.infoCoche()
 coche1.ruedas =2 #Para python __ruedas ≠ ruedas
 coche1.__ruedas =2
 coche1.infoCoche() #No cambia el número de ruedas en la linea superior porque esta encapsulada la variable
+
+
+"""
+GESTIONAR IMPORTS
+
+- Opción 1
+from basico.Condicionales import eligeEdad
+eligeEdad ("Marta")
+
+- Opción 2
+from basico.Condicionales import *
+eligeEdad("Marta")
+evaluacion(8)
+
+- Opción 3
+import basico.Condicionales
+Condicionales.eligeEdad("Marta")
+
+"""
+
+
+"""
+GESTIONAR PAQUETES
+Cuando creamos un paquete, debemos indicarlo añadiendo un archivo que le llamaremos __init__.py
+
+"""

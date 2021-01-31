@@ -1,3 +1,4 @@
+#Leer antes la clase Poo.py
 class Vehiculo():
     def __init__(self, marca, modelo):
         self.marca = marca
@@ -26,6 +27,12 @@ class Moto (Vehiculo): #Para heredar, se para por parametro la clase padre
     def toString(self): #Sobreescribimos el metodo toString de la clase vehiculo
         print("Marca: ", self.marca, "\nModelo: ", self.modelo, "\nEn marcha: ",
               self.enMarcha, "\nAcelera: ", self.acelera, "\nFrena: ", self.frena, "\nPermiso moto: ", self.permisoMoto)
+
+class motoPersonalizada(Vehiculo):
+    def __init__(self, matricula, marca, modelo):
+        super().__init__(marca, modelo)  #Hemos llamado al constructor que hereda de la clase Vehiculo
+        self.matricula = matricula
+
 
 class VeElectrico():
     def __init__(self):

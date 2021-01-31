@@ -41,4 +41,3 @@ while i<25:
     i+=1 #Para que no sea un bucle infinito
     if i == 20:
         break
-

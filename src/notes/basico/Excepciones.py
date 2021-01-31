@@ -53,8 +53,3 @@ def division4 (num1,num2):
 
 division4(1,0)
 print(division4(2,2))
-
-
-
-
-

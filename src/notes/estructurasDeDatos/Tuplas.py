@@ -23,5 +23,3 @@ tupla = tuple(lista) #Convierte una lista en una tupla
 print(lista,tupla)
 print(tupla1.count(3)) #Cuenta el numero de veces que tiene ese valor en la tupla/lista
 print(len(tupla1))
-
-

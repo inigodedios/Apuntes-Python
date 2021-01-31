@@ -35,5 +35,3 @@ def suma(num1, num2):
     return (suma)
 resultado = suma(1,6)
 print(resultado)
-
-

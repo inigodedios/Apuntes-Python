@@ -19,4 +19,3 @@ def eligeEdad (nombre):
         print("Tu nombre no esta en la lista")
 
 eligeEdad(input("¿Cuál es tu nombre \n"))
-
