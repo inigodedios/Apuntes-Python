@@ -1,4 +1,3 @@
-"""
 Un archivo lo podemos abrir en distintos modos:
 - Lectura --> "r" --> Solo lectura
 - Lectura en binario --> "rb" --> Solo lectura en binario
@@ -23,5 +22,3 @@ Pasos para guardar información en cualquiert tipo de archivo
 SERIALIZACIÓN --> Ficheros binarios
 El objetivo de la serialización es codificar en binario para que sea más cómodo a la hora de tratar con bbdd, de almacenar,
  para distribuirlo más facilmente...
-
-"""
